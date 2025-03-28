@@ -11,6 +11,28 @@ return {
 				"typescript-language-server",
 				"css-lsp",
 				"jdtls",
+				-- Python
+				"pyright", "ruff-lsp",
+				-- Rust
+				"rust-analyzer",
+				-- Go
+				"gopls",
+				-- PHP
+				"intelephense",
+				-- YAML
+				"yaml-language-server",
+				-- Docker
+				"dockerfile-language-server",
+				-- Markdown
+				"marksman",
+				-- Bash
+				"bash-language-server",
+				-- JSON
+				"json-lsp",
+				-- SQL
+				"sqls",
+				-- Formatters / Tools
+				"prettier", "stylua", "eslint_d", "sql-formatter",
 			})
 		end,
 	},
